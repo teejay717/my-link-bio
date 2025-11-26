@@ -15,7 +15,7 @@ function Profile() {
 
 function App() {
   return (
-    <div className="App min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center p-8">
+    <div className="App min-h-screen bg-gray-100 dark:bg-zinc-950 flex flex-col items-center justify-center p-8">
       <DarkModeToggle />
       <Profile />
       <LinkButton title="GitHub" url="https://github.com/teejay717" />
